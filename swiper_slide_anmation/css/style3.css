@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.container {
+    overflow:hidden;
+    position:relative;
+    border:20px solid red;
+    /* width:1440px;   */
+    height:500px;
+ }
+ .family-rolling{
+    /* width:5280px;  */
+   
+    display:flex;
+    flex-wrap:nowrap;
+    animation: 10s linear 0s infinite normal none running bannermove 
+ }
+ 
+ @keyframes bannermove {
+   
+        from {transform:translate3d(0,0,0);}to {transform:translate3d(-100%,0,0);}
+    
+ }
